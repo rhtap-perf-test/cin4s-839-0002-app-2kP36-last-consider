@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-mrot
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0002-tenant/cin4s-839-0002-app/devfile-sample-mrot@sha256:099e825e3633c44147aa4dc88e00b6a0aa6b76be1038f98949e8da45ecf60625
         name: my-nodejs
         ports:
         - containerPort: 3001
