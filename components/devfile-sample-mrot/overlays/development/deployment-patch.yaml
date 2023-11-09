@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-mrot
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0002-tenant/cin4s-839-0002-app/devfile-sample-mrot@sha256:099e825e3633c44147aa4dc88e00b6a0aa6b76be1038f98949e8da45ecf60625
+        name: my-nodejs
+        resources: {}
+status: {}
